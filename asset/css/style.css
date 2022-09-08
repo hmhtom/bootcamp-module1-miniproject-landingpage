@@ -1,9 +1,9 @@
-/*Universal Selector*/
+/*.Root*/
 *{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
-/*Type Selector*/
+/*Header*/
 header{
     width: 100%;
     position:fixed;
@@ -13,16 +13,17 @@ header{
     justify-content:space-between;
     margin-bottom: 100px;
 }
-main{
-    display: flex;
-    flex-direction: column;
+#header-title{
+    background-color: #2FCAE4;
+    flex:1;
+    padding: 20px;
+    text-align: center;
 }
-
-label{
-    margin: right;
+#nav-bar{
+    flex:10;
+    display:flex;
+    justify-content: space-between;
 }
-
-/*Class Selector*/
 .nav-button{
     background-color: #ADF3FF;
     flex:1;
@@ -34,8 +35,16 @@ label{
 .nav-button:hover{
     background-color: #9CDFEB;
 }
-.feature-section{
 
+/*Main Content Section*/
+main{
+    display: flex;
+    flex-direction: column;
+}
+#main-image{
+    max-width: 100%;
+}
+.feature-section{
     display: flex;
     justify-content: space-between
 }
@@ -50,27 +59,9 @@ label{
 .feature-section-img{
     flex:1;
 }
-.input-section{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
-/*ID Selector*/
-#header-title{
-    background-color: #2FCAE4;
-    flex:1;
-    padding: 20px;
-    text-align: center;
-}
-#nav-bar{
-    /*outside*/
-    flex:10;
-    display:flex;
-    justify-content: space-between;
-}
-#main-image{
-    max-width: 100%;
-}
+
+/*Contact Form*/
 #contact-form{
     background-color: #CBC0F3;
     display: flex;
@@ -80,3 +71,20 @@ label{
     padding-top: 30px;
     padding-bottom: 80px;
 }
+label{
+    margin: right;
+}
+.input-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    background-color: #ADF3FF;
+}
+
+
+
+

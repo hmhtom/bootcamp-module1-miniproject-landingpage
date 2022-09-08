@@ -8,72 +8,85 @@
   </head>
   <body>
     <header>
-      <h1>Landing Page</h1>
-      <nav>
-        <ul id="nav-bar">
-          <li class="nav-button"><a href="#">Home</a></li>
-          <li class="nav-button"><a href="#">Content</a></li>
-          <li class="nav-button"><a href="#">Contact</a></li>
-        </ul>
+      <h1 id="header-title">Landing Page</h1>
+      <nav id="nav-bar">
+        <a class="nav-button" href="#">Home</a>
+        <a class="nav-button" href="#first-feature">First Feature</a>
+        <a class="nav-button" href="#second-feature">Second Feature</a>
+        <a class="nav-button" href="#contact-form">Contact</a>
       </nav>
     </header>
-    <section>
-      <h2>First topic</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        consequat id enim vitae laoreet. Sed laoreet rhoncus mauris sed
-        lobortis. Proin sodales bibendum sapien, sit amet elementum diam laoreet
-        id. Integer efficitur, massa quis suscipit vulputate, odio magna
-        eleifend urna, eget faucibus libero metus ac nisl. Maecenas in hendrerit
-        tellus. Donec egestas ut tortor nec blandit. Duis imperdiet faucibus
-        felis vel volutpat. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Cras
-        varius lacus ut tortor sodales tristique. Maecenas posuere molestie
-        neque, non gravida magna. Pellentesque accumsan fringilla enim vel
-        tincidunt. Phasellus tellus dolor, volutpat quis velit sed, rhoncus
-        molestie lectus. Cras condimentum facilisis nibh ut interdum. Nullam sit
-        amet justo sit amet dui condimentum euismod. In eu sollicitudin est,
-        eget scelerisque ex.
-      </p>
-    </section>
-    <section>
-      <h2>Second Topic</h2>
-      <p>
-        Sed bibendum orci eleifend ipsum malesuada, et mollis libero rutrum.
-        Integer quam diam, luctus vel ipsum et, mattis tristique nisl. Nam
-        ullamcorper vestibulum diam, nec vulputate odio porta et. Orci varius
-        natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-        mus. In lobortis rutrum libero, in mollis ligula imperdiet eget.
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean
-        eget molestie lacus, dictum efficitur purus. Ut id lacus a orci semper
-        sagittis. Fusce posuere nisi purus, feugiat vulputate enim consectetur
-        in. Nulla nec dignissim eros, nec faucibus est.
-      </p>
-    </section>
-    <section>
-      <h2>Third Topic</h2>
-      <p>
-        Duis nisi ante, efficitur sit amet vehicula et, vehicula viverra tellus.
-        Phasellus et elementum elit, eget ullamcorper urna. Nunc commodo magna
-        at lectus luctus mollis. Integer hendrerit turpis sed suscipit placerat.
-        Donec malesuada eros ac felis luctus, quis blandit dolor venenatis. Nunc
-        consequat rhoncus nibh id mattis. In hac habitasse platea dictumst.
-        Quisque aliquet ligula a interdum laoreet. Curabitur in convallis justo.
-        Suspendisse vel auctor dolor. Sed at tincidunt massa, mattis congue sem.
-        Nam euismod eget mi sit amet venenatis. Pellentesque mauris augue,
-        tristique sed condimentum sit amet, interdum ac dui. Proin quis eros
-        porttitor, congue purus eu, auctor leo. Fusce sagittis odio nec
-        ullamcorper ullamcorper. Quisque vulputate commodo malesuada.
-      </p>
-    </section>
+    <main>
+      <img
+        id="main-image"
+        src="./asset/images/image-main.jpg"
+        alt="This is the main-image"
+      />
+      <section class="feature-section" id="first-feature">
+        <section class="feature-section-text">
+          <h2>This is the first feature</h2>
+          <p>
+            Vivamus feugiat ac tortor ut tempor. Donec ipsum magna, lobortis
+            eget quam egestas, dignissim facilisis nulla. Praesent eleifend erat
+            ut ornare elementum. Etiam imperdiet maximus arcu a dapibus. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum
+            mauris et luctus euismod. Sed iaculis diam augue, viverra varius
+            neque aliquet quis. Maecenas ornare lorem a turpis placerat, non
+            rutrum justo sagittis. Nunc mollis placerat enim aliquam tempus.
+            Pellentesque maximus velit lectus, sed auctor ipsum finibus vitae.
+            Fusce ultrices varius nulla, quis lobortis eros convallis at.
+          </p>
+        </section>
+        <img
+          class="feature-section-img"
+          src="https://via.placeholder.com/350"
+          alt="This is first feature's image"
+        />
+      </section>
+      <section class="feature-section" id="second-feature">
+        <img
+          class="feature-section-img"
+          src="https://via.placeholder.com/350"
+          alt="This is second feature's image"
+        />
+        <section class="feature-section-text">
+          <h2>This is the second feature</h2>
+          <p>
+            Vivamus feugiat ac tortor ut tempor. Donec ipsum magna, lobortis
+            eget quam egestas, dignissim facilisis nulla. Praesent eleifend erat
+            ut ornare elementum. Etiam imperdiet maximus arcu a dapibus. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum
+            mauris et luctus euismod. Sed iaculis diam augue, viverra varius
+            neque aliquet quis. Maecenas ornare lorem a turpis placerat, non
+            rutrum justo sagittis. Nunc mollis placerat enim aliquam tempus.
+            Pellentesque maximus velit lectus, sed auctor ipsum finibus vitae.
+            Fusce ultrices varius nulla, quis lobortis eros convallis at.
+          </p>
+        </section>
+      </section>
+    </main>
     <footer>
-      <h2>Contact</h2>
-      <form>
-        <label class="form-label" for="name">Name: </label>
-        <input name="name" id="name" type="text" />
-        <label class="form-label" for="email">Email: </label>
-        <input name="email" id="email" type="email" />
-        <button name="send" type="submit">Send</button>
+      <form id="contact-form">
+        <h2>Your Email</h2>
+        <section class="input-section">
+          <label for="name">Name:</label>
+          <input name="name" id="name" type="text" /><br />
+        </section>
+        <section class="input-section">
+          <label for="email">Email:</label>
+          <input name="email" id="email" type="email" />
+        </section>
+        <section class="input-section">
+          <textarea
+            id="info"
+            name="info"
+            rows="5"
+            cols="50"
+            style="resize: none"
+            placeholder="Tell us your thought"
+          ></textarea>
+        </section>
+        <button class="input-section" type="submit">Send</button>
       </form>
     </footer>
   </body>

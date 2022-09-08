@@ -28,6 +28,8 @@ label{
     flex:1;
     font-size: 30px;
     text-align: center;
+    text-decoration: none;
+    color:black;
 }
 .nav-button:hover{
     background-color: #9CDFEB;
